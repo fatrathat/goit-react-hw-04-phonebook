@@ -21,4 +21,9 @@ const Filter = props => {
   );
 };
 
+Filter.propTypes = {
+  contacts: PropTypes.string.isRequired,
+  onFilterContacts: PropTypes.func.isRequired,
+};
+
 export default Filter;
