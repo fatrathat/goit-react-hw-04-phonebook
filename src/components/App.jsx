@@ -6,11 +6,7 @@ import Filter from './Filter/Filter';
 import { useState, useEffect } from 'react';
 
 const INITIAL_STATE = {
-  contacts: [
-    { id: '1', name: 'Eugene', number: '0935563201' },
-    { id: '2', name: 'Vitaly', number: '0935563201' },
-    { id: '3', name: 'Evgeniy', number: '0935563201' },
-  ],
+  contacts: [],
   filter: '',
 };
 
